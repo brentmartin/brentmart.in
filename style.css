@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*
+TYPOGRAPHY
+================================
+*/
+
+
+h1  {
+/* 	USED FOR PAGE TITLE */
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 68px;
+	letter-spacing:-2px;
+	margin-bottom:24px;
+	color: black;
+	}
+
+h2	{
+/*  USED FOR SECTION HEADERS*/
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 48px;
+	margin-top:64px;
+	padding-top:64px;
+	margin-bottom:24px;
+	color: black;
+	border-top:1px;
+	border-color:lightgray;
+	border-style:solid;
+	}
+
+h3	{
+/* 	USED FOR SUB HEADERS */
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 32px;
+	margin-top:24px;
+	margin-bottom:16px;
+	color: black;
+	}
+
+h4	{
+/* 	USED FOR SUB SUB HEADERS */
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform:uppercase;
+	margin-bottom:12px;
+	color: black;
+	}
+
+p	{
+/* 	USED FOR BODY TEXT */
+	font-family: 'Marion', Georgia, Serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #333333;
+	margin-bottom: 12px;
+	}
+
+
+
+strong {
+/* 	USED FOR BOLD (STRONG) BODY TEXT */
+    font-weight:bold;
+    color:black;
+	}
+
+
+/*
+LINKS
+================================
+*/
+
+a {
+    font-weight:bold;
+    color:teal;
+    text-decoration:none;
+    }
+
+a:visted{
+    font-weight:bold;
+    color:teal;
+    text-decoration:none;
+    }
+
+
+
+a:hover {
+	text-decoration:underline;
+	color:black;
+	}
+
+
+
+
+#topimg {
+	z-index: -3;
+	position:relative;
+	float:left;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:-3px;
+	}
+
+
+/* how it was before i got crazy
+#page {
+	background-color: white;
+	position: relative;
+	float:left;
+	clear:both;
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+	height:1200px;
+}
+
+#textbox {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position:absolute;
+	top: 72px;
+	left: 72px;
+	right: 72px;
+	background-color: #EEE;
+}
+*/
+
+
+
+#textbox {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	float:left;
+	width:100%;
+	padding: 72px;
+	background-color: white;
+
+	border-radius: 2px;
+
+
+	-moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#contact
+	{
+  	z-index: -2;
+	position:fixed;
+	top:16px;
+	right:32px;
+	}
+
+.contact a
+	{
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+    }
+
+.contact a:visted
+	{
+    font-weight:bold;
+    color:white;
+    text-decoration:none;
+    }
+
+.contact a:hover
+	{
+	text-decoration:underline;
+	}
+
+.contact
+	{
+	color:white;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+	}
+
+
+/*
+Adjustments for Wider tablet and Desktop Sizes
+=========================================
+*/
+
+
+@media all and (min-width: 1025px)
+{
+
+#topimg {
+display:none;
+}
+
+html {
+	background: url('images/coffee.jpg') no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	}
+
+
+#contact {
+	right:164px;
+}
+
+
+#textbox {
+	position: relative;
+	float:right;
+	margin-top:360px;
+	margin-right:144px;
+	margin-bottom:36px;
+	width:512px;
+}
+
+}
+
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+#textbox {
+
+	padding:72px 200px;
+}
+
+}
+
+
+
+/*
+Adjustments for Phone Sizes
+=========================================
+*/
+
+
+
+@media all and (max-width: 400px)
+{
+
+#textbox {
+	padding:36px;
+
+}
+
+.contact a {
+    font-weight:bold;
+    font-size: 13px;
+    color:white;
+    text-decoration:none;
+}
+
+.contact a:visited {
+    font-weight:bold;
+    font-size: 13px;
+    color:white;
+    text-decoration:none;
+}
+
+}
