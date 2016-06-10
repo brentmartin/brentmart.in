@@ -63,7 +63,7 @@ h1  {
 	line-height: 68px;
 	letter-spacing:-2px;
 	margin-bottom:24px;
-	color: black;
+	color: blue;
 	}
 
 h2	{
@@ -75,7 +75,7 @@ h2	{
 	margin-top:64px;
 	padding-top:64px;
 	margin-bottom:24px;
-	color: black;
+	color: red;
 	border-top:1px;
 	border-color:lightgray;
 	border-style:solid;
@@ -89,7 +89,7 @@ h3	{
 	line-height: 32px;
 	margin-top:24px;
 	margin-bottom:16px;
-	color: black;
+	color: yellow;
 	}
 
 h4	{
@@ -100,7 +100,7 @@ h4	{
 	line-height: 22px;
 	text-transform:uppercase;
 	margin-bottom:12px;
-	color: black;
+	color: green;
 	}
 
 p	{
