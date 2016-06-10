@@ -4,6 +4,8 @@ $(document).ready(function() {
   $('#jobs').find('.jobs-expanded').slideUp();
   $('#education').find('.education-expanded').slideUp();
   $('#results').find('.results-expanded').slideUp();
+  $('#interests').find('.interests-expanded').slideUp();
+
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').slideToggle();
   });
@@ -19,4 +21,9 @@ $(document).ready(function() {
   $('#results').on('click', function() {
     $(this).find('.results-expanded').slideToggle();
   });
+
+  $('#interests').on('click', function() {
+    $(this).find('.interests-expanded').slideToggle();
+  });
+
 });
