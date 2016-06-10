@@ -3,6 +3,7 @@ $(document).ready(function() {
   $('#skills').find('.skills-expanded').slideUp();
   $('#jobs').find('.jobs-expanded').slideUp();
   $('#education').find('.education-expanded').slideUp();
+  $('#results').find('.results-expanded').slideUp();
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').slideToggle();
   });
@@ -13,5 +14,9 @@ $(document).ready(function() {
 
   $('#education').on('click', function() {
     $(this).find('.education-expanded').slideToggle();
+  });
+
+  $('#results').on('click', function() {
+    $(this).find('.results-expanded').slideToggle();
   });
 });
