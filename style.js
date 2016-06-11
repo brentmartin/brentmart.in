@@ -32,4 +32,8 @@ $(document).ready(function() {
   $('#textbox').find('li:nth-child(1)').on('click', function() {
     $(this).toggleClass( "button-off button-on" );
   });
+
+  $('#textbox').find('li:nth-child(2)').on('click', function() {
+    $(this).toggleClass( "button-off button-on" );
+  });
 });
