@@ -233,9 +233,32 @@ a:hover {
 	padding: 0.4em 1.2em;
 }
 
+.button-on {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 400;
+	background-color: teal;
+	border: 1px solid teal;
+	border-radius: 3.75em;
 	color: white;
+	display: inline-block;
+	font-size: .75em;
+	line-height: 1;
+	padding: 0.4em 1.2em;
+	transition: all 100ms linear
 }
 
+.button-on:hover {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: 400;
+	background-color: #4ca6a6;
+	border: 1px solid #4ca6a6;
+	border-radius: 3.75em;
+	color: white;
+	display: inline-block;
+	font-size: .75em;
+	line-height: 1;
+	padding: 0.4em 1.2em;
+}
 
 #contact
 	{
