@@ -6,6 +6,7 @@ $(document).ready(function() {
   $('#results').find('.results-expanded').fadeOut();
   $('#interests').find('.interests-expanded').fadeOut();
 
+  $('#textbox').find('.button-on').fadeOut();
 
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').fadeToggle(250);
