@@ -8,8 +8,7 @@ $(document).ready(function() {
   $('#interests').find('.interests-expanded').slideUp();
 
   $('#skills').on('click', function() {
-    $(this).find('.skills-expanded').slideToggle(200);
-    $(this).find('h4, p').delay(200).fadeToggle();
+    $(this).find('.skills-expanded').fadeToggle(250);
   });
 
   $('#jobs').on('click', function() {
