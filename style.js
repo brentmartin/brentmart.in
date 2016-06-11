@@ -31,6 +31,7 @@ $(document).ready(function() {
 
   $('#textbox').find('li:nth-child(1)').on('click', function() {
     $(this).toggleClass( "button-off button-on" );
+    $(this).closest('#textbox').find('.skills-expanded').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(2)').on('click', function() {
