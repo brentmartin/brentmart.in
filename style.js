@@ -41,6 +41,7 @@ $(document).ready(function() {
 
   $('#textbox').find('li:nth-child(3)').on('click', function() {
     $(this).toggleClass( "button-off button-on" );
+    $(this).closest('#textbox').find('.education-expanded').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(4)').on('click', function() {
