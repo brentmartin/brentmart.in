@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
 
   $('#jobs').on('click', function() {
-    $(this).find('.jobs-expanded').slideToggle();
+    $(this).find('.jobs-expanded').fadeToggle(250);
   });
 
   $('#education').on('click', function() {
