@@ -24,7 +24,7 @@ $(document).ready(function() {
   });
 
   $('#interests').on('click', function() {
-    $(this).find('.interests-expanded').slideToggle();
+    $(this).find('.interests-expanded').fadeToggle(250);
   });
 
 });
