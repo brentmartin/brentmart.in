@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $('a.scroll').smoothScroll();
-  $('#skills').find('.skills-expanded').slideUp();
-  $('#skills').find('h4, p').fadeOut();
-  $('#jobs').find('.jobs-expanded').slideUp();
-  $('#education').find('.education-expanded').slideUp();
-  $('#results').find('.results-expanded').slideUp();
-  $('#interests').find('.interests-expanded').slideUp();
+  $('#skills').find('.skills-expanded').fadeOut();
+  $('#jobs').find('.jobs-expanded').fadeOut();
+  $('#education').find('.education-expanded').fadeOut();
+  $('#results').find('.results-expanded').fadeOut();
+  $('#interests').find('.interests-expanded').fadeOut();
+
 
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').fadeToggle(250);
