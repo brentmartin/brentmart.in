@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 
   $('#results').on('click', function() {
-    $(this).find('.results-expanded').slideToggle();
+    $(this).find('.results-expanded').fadeToggle(250);
   });
 
   $('#interests').on('click', function() {
