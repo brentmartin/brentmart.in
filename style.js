@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
 
   $('#education').on('click', function() {
-    $(this).find('.education-expanded').slideToggle();
+    $(this).find('.education-expanded').fadeToggle(250);
   });
 
   $('#results').on('click', function() {
