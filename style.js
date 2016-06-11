@@ -40,4 +40,8 @@ $(document).ready(function() {
   $('#textbox').find('li:nth-child(3)').on('click', function() {
     $(this).toggleClass( "button-off button-on" );
   });
+
+  $('#textbox').find('li:nth-child(4)').on('click', function() {
+    $(this).toggleClass( "button-off button-on" );
+  });
 });
