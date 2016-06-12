@@ -57,6 +57,12 @@ TYPOGRAPHY
 ================================
 */
 
+hr {
+	margin-top:64px;
+	margin-bottom:64px;
+	border-color:lightgray;
+	border-style:solid;
+}
 
 h1  {
 /* 	USED FOR PAGE TITLE */
