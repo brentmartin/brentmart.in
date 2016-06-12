@@ -10,6 +10,10 @@ $(document).ready(function() {
 
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').fadeToggle(250);
+/*
+SEE MORE BUTTON ON EACH TOPIC
+================================
+*/
   });
 
   $('#jobs').on('click', function() {
