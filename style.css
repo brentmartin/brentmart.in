@@ -134,6 +134,12 @@ li {
 		display: inline;
 	}
 
+.topic-button {
+		display: inline;
+		float: right;
+		margin-top: 72px;
+	}
+
 /*  READ MORE/LESS
 .topic-read-more {
 	text-align: right;
@@ -147,6 +153,8 @@ li {
 	color: teal;
 	}
 */
+
+
 /*
 LINKS
 ================================
