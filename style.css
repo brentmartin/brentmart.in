@@ -125,6 +125,19 @@ strong {
 
 
 /*
+/*  READ MORE/LESS
+.topic-read-more {
+	text-align: right;
+	}
+
+.topic-read-less {
+	text-align: right;
+	}
+
+.topic-read-link {
+	color: teal;
+	}
+*/
 LINKS
 ================================
 */

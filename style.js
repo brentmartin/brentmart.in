@@ -22,11 +22,25 @@ $(document).ready(function() {
 
   $('#results').on('click', function() {
     $(this).find('.results-expanded').fadeToggle(250);
+/*
+READ MORE/LESS
+================================
+  $('#skills').find('.topic-read-more > .topic-read-link').on('click', function() {
+    $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#skills').find('.topic-read-more').hide();
+    $('#skills').find('.topic-read-less').fadeIn(250);
+    $('#skills').find('.skills-expanded').fadeIn(250);
   });
 
   $('#interests').on('click', function() {
     $(this).find('.interests-expanded').fadeToggle(250);
+  $('#skills').find('.topic-read-less > .topic-read-link').on('click', function() {
+    $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#skills').find('.topic-read-less').fadeOut(250);
+    $('#skills').find('.topic-read-more').delay(250).fadeIn(250);
+    $('#skills').find('.skills-expanded').fadeOut(250);
   });
+*/
 
 
   $('#textbox').find('li:nth-child(1)').on('click', function() {
