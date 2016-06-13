@@ -51,8 +51,6 @@ READ MORE/LESS
     $('#skills').find('.skills-expanded').fadeIn(250);
   });
 
-  $('#interests').on('click', function() {
-    $(this).find('.interests-expanded').fadeToggle(250);
   $('#skills').find('.topic-read-less > .topic-read-link').on('click', function() {
     $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
     $('#skills').find('.topic-read-less').fadeOut(250);
