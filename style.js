@@ -63,8 +63,8 @@ READ MORE/LESS
   });
 
   $('#textbox').find('li:nth-child(4)').on('click', function() {
-    $(this).toggleClass( "button-off button-on" );
-    $(this).closest('#textbox').find('.results-expanded').fadeToggle(250);
+    $(this).toggleClass( 'button-off button-on' );
+    $(this).closest('#textbox').find('#results').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(5)').on('click', function() {
