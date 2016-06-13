@@ -33,8 +33,6 @@ SEE MORE BUTTON ON EACH TOPIC
     $('#skills').find('.skills-expanded').fadeToggle(250);
   });
 
-  $('#education').on('click', function() {
-    $(this).find('.education-expanded').fadeToggle(250);
   $('#skills').find('.topic-header').on('click', function() {
     $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
     $('#skills').find('.skills-expanded').fadeToggle(250);
