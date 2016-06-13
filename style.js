@@ -14,10 +14,18 @@ $(document).ready(function() {
 SEE MORE BUTTON ON EACH TOPIC
 ================================
 */
+  $('.topic').find('.topic-button').on('click', function() {
+    $(this).closest('.topic').find('.topic-button').toggleClass( 'button-off button-on' );
+    $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
   });
 
   $('#jobs').on('click', function() {
     $(this).find('.jobs-expanded').fadeToggle(250);
+  $('.topic').find('.topic-header').on('click', function() {
+    $(this).closest('.topic').find('.topic-button').toggleClass( 'button-off button-on' );
+    $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
+  });
+
   });
 
   $('#education').on('click', function() {
