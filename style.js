@@ -10,8 +10,6 @@ $(document).ready(function() {
 
   $('#textbox').find('.button-on').fadeOut();
 
-  $('#skills').on('click', function() {
-    $(this).find('.skills-expanded').fadeToggle(250);
 
 
 /*
