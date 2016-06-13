@@ -41,8 +41,6 @@ SEE MORE BUTTON ON EACH TOPIC
 
 
 
-  $('#results').on('click', function() {
-    $(this).find('.results-expanded').fadeToggle(250);
 /*
 READ MORE/LESS
 ================================
