@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('a.scroll').smoothScroll();
+  $('.topic-read-more').add('topic-read-more');
   $('.topic').fadeOut();
   $('#skills').find('.skills-expanded').fadeOut();
   $('#jobs').find('.jobs-expanded').fadeOut();
@@ -29,11 +30,22 @@ SEE MORE BUTTON ON EACH TOPIC
     $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
   });
 
+/*  performs the following on each specific topic:
+
+  $('#skills').find('.topic-button').on('click', function() {
+    $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#skills').find('.skills-expanded').fadeToggle(250);
   });
 
   $('#education').on('click', function() {
     $(this).find('.education-expanded').fadeToggle(250);
+  $('#skills').find('.topic-header').on('click', function() {
+    $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#skills').find('.skills-expanded').fadeToggle(250);
   });
+*/
+
+
 
   $('#results').on('click', function() {
     $(this).find('.results-expanded').fadeToggle(250);
