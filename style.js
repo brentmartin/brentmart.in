@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('a.scroll').smoothScroll();
+  $('.topic').fadeOut();
   $('#skills').find('.skills-expanded').fadeOut();
   $('#jobs').find('.jobs-expanded').fadeOut();
   $('#education').find('.education-expanded').fadeOut();
@@ -10,6 +11,8 @@ $(document).ready(function() {
 
   $('#skills').on('click', function() {
     $(this).find('.skills-expanded').fadeToggle(250);
+
+
 /*
 SEE MORE BUTTON ON EACH TOPIC
 ================================
