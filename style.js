@@ -44,6 +44,8 @@ SEE MORE BUTTON ON EACH TOPIC
 /*
 READ MORE/LESS
 ================================
+*/
+
   $('#skills').find('.topic-read-more > .topic-read-link').on('click', function() {
     $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
     $('#skills').find('.topic-read-more').hide();
@@ -57,7 +59,7 @@ READ MORE/LESS
     $('#skills').find('.topic-read-more').delay(250).fadeIn(250);
     $('#skills').find('.skills-expanded').fadeOut(250);
   });
-*/
+
 
 
   $('#textbox').find('li:nth-child(1)').on('click', function() {
