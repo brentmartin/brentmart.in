@@ -37,6 +37,7 @@ SEE MORE BUTTON ON EACH TOPIC
     $('#skills').find('.topic-button').toggleClass( 'button-off button-on' );
     $('#skills').find('.skills-expanded').fadeToggle(250);
   });
+
 */
 
 
@@ -60,6 +61,20 @@ READ MORE/LESS
     $('#skills').find('.skills-expanded').fadeOut(250);
   });
 
+
+  $('#jobs').find('.topic-read-more > .topic-read-link').on('click', function() {
+    $('#jobs').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#jobs').find('.topic-read-more').hide();
+    $('#jobs').find('.topic-read-less').fadeIn(250);
+    $('#jobs').find('.skills-expanded').fadeIn(250);
+  });
+
+  $('#jobs').find('.topic-read-less > .topic-read-link').on('click', function() {
+    $('#jobs').find('.topic-button').toggleClass( 'button-off button-on' );
+    $('#jobs').find('.topic-read-less').fadeOut(250);
+    $('#jobs').find('.topic-read-more').delay(250).fadeIn(250);
+    $('#jobs').find('.skills-expanded').fadeOut(250);
+  });
 
 
   $('#textbox').find('li:nth-child(1)').on('click', function() {
