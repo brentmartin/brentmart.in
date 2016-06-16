@@ -66,7 +66,7 @@ READ MORE/LESS
   });
 
   $('#textbox').find('li:nth-child(2)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on' );
+    $(this).toggleClass( 'button-off button-on jobs-button' );
     $(this).closest('#textbox').find('#jobs').fadeToggle(250);
   });
 
