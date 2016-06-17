@@ -19,6 +19,7 @@ SEE MORE BUTTON ON EACH TOPIC
   $('.topic').find('.topic-button').on('click', function() {
     $(this).closest('.topic').find('.topic-button').toggleClass( 'button-off button-on' );
     $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
+    $(this).closest('.topic').find('.topic-collapse').toggle();
   });
 
 /*  performs the following on each specific topic:
