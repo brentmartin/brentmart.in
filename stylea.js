@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('a.scroll').smoothScroll();
-  $('.topic-read-more').add('topic-read-more');
+  // $('.topic-read-more').add('topic-read-more');
   $('.topic').fadeOut();
   $('#skills').find('.skills-expanded').fadeOut();
   $('#jobs').find('.jobs-expanded').fadeOut();
