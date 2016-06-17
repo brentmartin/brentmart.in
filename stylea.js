@@ -21,11 +21,6 @@ SEE MORE BUTTON ON EACH TOPIC
     $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
   });
 
-  $('.topic').find('.topic-header').on('click', function() {
-    $(this).closest('.topic').find('.topic-button').toggleClass( 'button-off button-on' );
-    $(this).closest('.topic').find('.topic-expanded').fadeToggle(250);
-  });
-
 /*  performs the following on each specific topic:
 
   $('#skills').find('.topic-button').on('click', function() {
