@@ -363,10 +363,10 @@ html {
 
 @media all and (min-width: 800px) and (max-width: 1024px)
 {
-#textbox {
+	#textbox {
 
-	padding:72px 200px;
-}
+		padding:72px 200px;
+	}
 
 }
 
@@ -391,10 +391,10 @@ Adjustments for Phone Sizes
 @media all and (max-width: 400px)
 {
 
-#textbox {
-	padding:36px;
+	#textbox {
+		padding:36px;
 
-}
+	}
 
 	.buttons {
 		text-align: center;
