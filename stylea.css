@@ -167,6 +167,7 @@ a {
     text-decoration:none;
     }
 
+a:visited {
     font-weight:bold;
     color:teal;
     text-decoration:none;
