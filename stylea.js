@@ -79,11 +79,7 @@ READ MORE/LESS
   $('#textbox').find('li:nth-child(5)').on('click', function() {
     $(this).toggleClass( 'button-off button-on' );
     $(this).closest('#textbox').find('#interests').fadeToggle(250);
-  });
-
-  $('#textbox').find('.jobs-link').on('click', function() {
-    $('li:nth-child(2)').toggleClass( 'button-off button-on jobs-button' );
-    $('li:nth-child(2)').closest('#textbox').find('#jobs').fadeToggle(250);
+    $('#textbox').find('.interests-button').toggleClass( 'interests-button' );
   });
 
 });
