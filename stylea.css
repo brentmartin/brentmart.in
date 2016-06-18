@@ -318,6 +318,9 @@ a:hover {
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 	}
 
+#footer-contact {
+	vertical-align: baseline;
+	}
 
 /*
 Adjustments for Wider tablet and Desktop Sizes
