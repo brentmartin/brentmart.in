@@ -377,6 +377,15 @@ Adjustments for Phone Sizes
 =========================================
 */
 
+@media all and (min-width: 401px) and (max-width: 500px)
+{
+	.buttons {
+		text-align: center;
+		font-size: 12px;
+	}
+
+}
+
 
 
 @media all and (max-width: 400px)
