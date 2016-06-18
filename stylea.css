@@ -130,8 +130,8 @@ OTHER STYLING
 ================================
 */
 
-li {
-		display: inline;
+.buttons > li {
+		margin-right: .1em;
 	}
 
 .topic-button {
@@ -387,6 +387,10 @@ Adjustments for Phone Sizes
 
 }
 
+	.buttons {
+		text-align: center;
+		font-size: 15px;
+	}
 
 	#header-contact a {
 	    font-weight:bold;
