@@ -418,6 +418,20 @@ Adjustments for Phone Sizes
 }
 
 
+
+@media all and (max-width: 400px)
+{
+
+	#textbox {
+		padding:36px;
+
+	}
+
+	.buttons {
+		text-align: center;
+		font-size: 15px;
+	}
+
 	#header-contact a {
 	    font-weight:bold;
 	    font-size: 13px;
