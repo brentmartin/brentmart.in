@@ -207,14 +207,15 @@ a:hover {
 
 
 
-#topimg {
 	z-index: -3;
-	position:relative;
-	float:left;
-	width:100%;
-	margin: 0px;
-	padding: 0px;
-	margin-bottom:-3px;
+	.top-picture {
+		position:relative;
+		float:left;
+		width:100%;
+		margin: 0px;
+		padding: 0px;
+		margin-bottom:-3px;
+
 	}
 
 
