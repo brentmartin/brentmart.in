@@ -407,16 +407,28 @@ Adjustments for Phone Sizes
 =========================================
 */
 
+@media all and (min-width: 501px) and (max-width: 799px)
+{
+	.overlay-grayscale {
+		background-color: rgba(255,255,255,0.2);
+	}
+	.overlay {
+		background-color: rgba(135,196,196,0.7);
+	}
 
+}
 
-@media all and (max-width: 400px)
 
 
 @media all and (min-width: 401px) and (max-width: 500px)
 {
+	.overlay-grayscale {
+		background-color: rgba(255,255,255,0.2);
+	}
+	.overlay {
+		background-color: rgba(135,196,196,0.7);
+	}
 
-#textbox {
-	padding:36px;
 	.buttons {
 		text-align: center;
 		font-size: 12px;
@@ -428,6 +440,12 @@ Adjustments for Phone Sizes
 
 @media all and (max-width: 400px)
 {
+	.overlay-grayscale {
+		background-color: rgba(255,255,255,0.2);
+	}
+	.overlay {
+		background-color: rgba(135,196,196,0.7);
+	}
 
 	#textbox {
 		padding:36px;
