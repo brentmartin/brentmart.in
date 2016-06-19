@@ -400,10 +400,14 @@ Adjustments for Phone Sizes
 
 
 @media all and (max-width: 400px)
+
+
+@media all and (min-width: 401px) and (max-width: 500px)
 {
 
 #textbox {
 	padding:36px;
+	}
 
 }
 
