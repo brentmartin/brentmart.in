@@ -207,7 +207,6 @@ a:hover {
 
 
 
-	z-index: -3;
 	.top-picture {
 		position:relative;
 		float:left;
@@ -215,6 +214,7 @@ a:hover {
 		margin: 0px;
 		padding: 0px;
 		margin-bottom:-3px;
+		z-index: -5;
 
 	}
 
