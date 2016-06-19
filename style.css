@@ -356,7 +356,7 @@ Adjustments for Wider tablet and Desktop Sizes
 @media all and (min-width: 1025px)
 {
 
-#topimg {
+.top-picture {
 display:none;
 }
 
