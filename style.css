@@ -407,6 +407,9 @@ Adjustments for Phone Sizes
 
 #textbox {
 	padding:36px;
+	.buttons {
+		text-align: center;
+		font-size: 12px;
 	}
 
 }
