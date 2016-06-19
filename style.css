@@ -48,7 +48,6 @@ table {
 }
 
 
-
 /*
 TYPOGRAPHY
 ================================
@@ -130,8 +129,8 @@ OTHER STYLING
 ================================
 */
 
-li {
-		display: inline;
+.buttons > li {
+		margin-right: .1em;
 	}
 
 .topic-button {
