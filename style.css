@@ -318,35 +318,30 @@ a:hover {
 	padding: 0.4em 1.2em;
 }
 
-#contact
-	{
-  	z-index: -2;
+#header-contact {
+  z-index: -2;
 	position:fixed;
 	top:16px;
 	right:32px;
 	}
 
-.contact a
-	{
-    font-weight:bold;
-    color:white;
-    text-decoration:none;
-    }
+#header-contact a {
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  }
 
-.contact a:visted
-	{
-    font-weight:bold;
-    color:white;
-    text-decoration:none;
-    }
+#header-contact a:visted {
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  }
 
-.contact a:hover
-	{
+#header-contact a:hover {
 	text-decoration:underline;
 	}
 
-.contact
-	{
+#header-contact {
 	color:white;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 	}
@@ -374,7 +369,7 @@ html {
 	}
 
 
-#contact {
+#header-contact {
 	right:164px;
 }
 
@@ -416,18 +411,19 @@ Adjustments for Phone Sizes
 
 }
 
-.contact a {
-    font-weight:bold;
-    font-size: 13px;
-    color:white;
-    text-decoration:none;
-}
 
-.contact a:visited {
-    font-weight:bold;
-    font-size: 13px;
-    color:white;
-    text-decoration:none;
-}
+	#header-contact a {
+	    font-weight:bold;
+	    font-size: 13px;
+	    color:white;
+	    text-decoration:none;
+	}
+
+	#header-contact a:visited {
+	    font-weight:bold;
+	    font-size: 13px;
+	    color:white;
+	    text-decoration:none;
+	}
 
 }
