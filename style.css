@@ -187,7 +187,7 @@ LINKS
 
 a {
     font-weight:bold;
-    color:teal;
+    color: #87C4C4;
     text-decoration:none;
     }
 
@@ -281,9 +281,9 @@ a:hover {
 	font-size: .75em;
 	font-weight: 400;
 	background-color: white;
-	border: 1px solid #4ca6a6;
+	border: 1px solid #87C4C4;
 	border-radius: 3.75em;
-	color: #4ca6a6;
+	color: #87C4C4;
 	display: inline-block;
 	line-height: 1;
 	padding: 0.4em 1.2em;
@@ -293,8 +293,8 @@ a:hover {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-size: .75em;
 	font-weight: 400;
-	background-color: teal;
-	border: 1px solid teal;
+	background-color: #87C4C4;
+	border: 1px solid #87C4C4;
 	border-radius: 3.75em;
 	color: white;
 	display: inline-block;
@@ -306,8 +306,8 @@ a:hover {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-size: .75em;
 	font-weight: 400;
-	background-color: #4ca6a6;
-	border: 1px solid #4ca6a6;
+	background-color: #A1EAEB;
+	border: 1px solid #A1EAEB;
 	border-radius: 3.75em;
 	color: white;
 	display: inline-block;
