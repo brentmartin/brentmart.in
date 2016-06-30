@@ -85,17 +85,16 @@ READ MORE/LESS
 
 
   $(window).scroll(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the
-      //nav bar to stick.
-      console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 720) {
+
+      var posTop = $(window).scrollTop() - $('.nav-space').offset().top
+
+    console.log('from .nav-space: '+posTop+' | from top of page: '+$(window).scrollTop());
+
+    if (posTop > 0) {
       $('#nav_bar').addClass('navbar-fixed');
     }
-    if ($(window).scrollTop() < 721) {
+    if (posTop < 1) {
       $('#nav_bar').removeClass('navbar-fixed');
     }
   });
-
-
 });
