@@ -440,7 +440,7 @@ Adjustments for Phone Sizes
 =========================================
 */
 
-@media all and (min-width: 501px) and (max-width: 799px)
+@media all and (min-width: 625px) and (max-width: 799px)
 {
 	.overlay-grayscale {
 		background-color: rgba(255,255,255,0.2);
@@ -480,6 +480,46 @@ Adjustments for Phone Sizes
 
 }
 
+
+@media all and (min-width: 501px) and (max-width: 624px)
+{
+	.overlay-grayscale {
+		background-color: rgba(255,255,255,0.2);
+	}
+	.overlay {
+		background-color: rgba(135,196,196,0.7);
+	}
+
+	#nav_bar {
+		float: right;
+		border: 0;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 0px;
+		margin-bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+
+	.navbar-fixed {
+		width: 100%;
+		top: 0;
+		right: 0;
+		z-index: 100;
+		position: fixed;
+		padding-right: 36px;
+	}
+
+	#textbox {
+		padding:72px;
+	}
+
+	.buttons {
+		float:right;
+		text-align: center;
+    font-size: 15px;
+	}
+
+}
 
 
 @media all and (min-width: 401px) and (max-width: 500px)
