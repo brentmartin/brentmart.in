@@ -429,14 +429,9 @@ Adjustments for Phone Sizes
 		background-color: rgba(135,196,196,0.7);
 	}
 
-	#textbox {
-		padding:36px;
-
-	}
-
 	.buttons {
 		text-align: center;
-    font-size: 15px;
+		font-size: 12px;
 	}
 
 }
