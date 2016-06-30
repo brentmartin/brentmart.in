@@ -359,6 +359,14 @@ a:hover {
 	vertical-align: baseline;
 	}
 
+.navbar-fixed {
+	width: 100%;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 100;
+}
+
 /*
 Adjustments for Wider tablet and Desktop Sizes
 =========================================
@@ -412,11 +420,6 @@ Adjustments for Wider tablet and Desktop Sizes
 	}
 
 	.navbar-fixed {
-		width: 100%;
-		top: 0;
-		right: 0;
-		z-index: 100;
-		position: fixed;
 		padding-right: 216px;
 	}
 
@@ -453,11 +456,6 @@ Adjustments for Phone Sizes
 	}
 
 	.navbar-fixed {
-		width: 100%;
-		top: 0;
-		right: 0;
-		z-index: 100;
-		position: fixed;
 		padding-right: 144px;
 	}
 
@@ -484,11 +482,6 @@ Adjustments for Phone Sizes
 	}
 
 	.navbar-fixed {
-		width: 100%;
-		top: 0;
-		right: 0;
-		z-index: 100;
-		position: fixed;
 		padding-right: 36px;
 	}
 
@@ -519,11 +512,6 @@ Adjustments for Phone Sizes
 	}
 
 	.navbar-fixed {
-		width: 100%;
-		top: 0;
-		right: 0;
-		z-index: 100;
-		position: fixed;
 		padding-right: 36px;
 	}
 
@@ -549,11 +537,6 @@ Adjustments for Phone Sizes
 	}
 
 	.navbar-fixed {
-	  top: 0;
-	  z-index: 100;
-	  position: fixed;
-	}
-
 
 	.overlay-grayscale {
 		background-color: rgba(255,255,255,0.2);
