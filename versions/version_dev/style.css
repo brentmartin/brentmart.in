@@ -130,6 +130,7 @@ OTHER STYLING
 */
 
 .buttons > li {
+		display: inline-block;
 		margin-right: .1em;
 	}
 
@@ -422,7 +423,10 @@ html {
 		padding-right: 216px;
 	}
 
-		padding:72px 200px;
+	.buttons {
+		float:right;
+		text-align: center;
+		font-size: 15px;
 	}
 
 }
