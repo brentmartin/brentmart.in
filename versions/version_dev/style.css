@@ -543,6 +543,7 @@ Adjustments for Phone Sizes
 	}
 	.overlay {
 		background-color: rgba(135,196,196,0.7);
+		padding-right: 36px;
 	}
 
 	#textbox {
