@@ -139,6 +139,15 @@ OTHER STYLING
 		margin-top: 72px;
 	}
 
+.nav_links li {
+		display: inline-block;
+	  margin-top: 4px;
+	}
+
+.nav-space {
+		height: 40px;
+	}
+
 /*  READ MORE/LESS
 .topic-read-more {
 	text-align: right;
