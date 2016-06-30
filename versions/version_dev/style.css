@@ -465,6 +465,13 @@ Adjustments for Phone Sizes
 		position: fixed;
 		padding-right: 144px;
 	}
+
+	.buttons {
+		float:right;
+		text-align: center;
+		font-size: 15px;
+	}
+
 }
 
 
@@ -503,6 +510,7 @@ Adjustments for Phone Sizes
 	}
 
 	.buttons {
+		float:right;
 		text-align: center;
     font-size: 15px;
 	}
