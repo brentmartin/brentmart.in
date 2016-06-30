@@ -53,13 +53,6 @@ TYPOGRAPHY
 ================================
 */
 
-hr {
-	margin-top:64px;
-	margin-bottom:64px;
-	border-color:lightgray;
-	border-style:solid;
-}
-
 h1  {
 /* 	USED FOR PAGE TITLE */
 	font-family: 'Oswald', Helvetica, sans-serif;
@@ -122,20 +115,6 @@ strong {
     font-weight:bold;
     color:black;
 	}
-
-/*  READ MORE/LESS
-.topic-read-more {
-	text-align: right;
-	}
-
-.topic-read-less {
-	text-align: right;
-	}
-
-.topic-read-link {
-	color: teal;
-	}
-*/
 
 
 /*
@@ -234,8 +213,6 @@ HEADER and BODY
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 	}
 
-#footer-contact {
-	vertical-align: baseline;
 
 /*
 BACKGROUND
