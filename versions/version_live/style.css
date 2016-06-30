@@ -139,31 +139,6 @@ a:hover {
 	color:black;
 }
 
-/* how it was before i got crazy
-#page {
-	background-color: white;
-	position: relative;
-	float:left;
-	clear:both;
-	width:100%;
-	margin-left:0px;
-	margin-right:0px;
-	height:1200px;
-}
-
-#textbox {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-
-	position:absolute;
-	top: 72px;
-	left: 72px;
-	right: 72px;
-	background-color: #EEE;
-}
-*/
-
 
 /*
 HEADER and BODY
