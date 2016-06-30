@@ -53,13 +53,6 @@ TYPOGRAPHY
 ================================
 */
 
-hr {
-	margin-top:64px;
-	margin-bottom:64px;
-	border-color:lightgray;
-	border-style:solid;
-}
-
 h1  {
 /* 	USED FOR PAGE TITLE */
 	font-family: 'Oswald', Helvetica, sans-serif;
@@ -125,101 +118,26 @@ strong {
 
 
 /*
-OTHER STYLING
-================================
-*/
-
-.buttons > li {
-		margin-right: .1em;
-	}
-
-.topic-button {
-		display: inline;
-		float: right;
-		margin-top: 72px;
-	}
-
-/*  READ MORE/LESS
-.topic-read-more {
-	text-align: right;
-	}
-
-.topic-read-less {
-	text-align: right;
-	}
-
-.topic-read-link {
-	color: teal;
-	}
-*/
-
-
-
-.picture {
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	z-index: -5;
-	position: fixed;
-}
-.overlay-grayscale {
-	height: 100%;
-	width: 100%;
-	z-index: -4;
-	position: fixed;
-	background-color: rgba(255,255,255,0.5);
-}
-.overlay {
-	height: 100%;
-	width: 100%;
-	z-index: -3;
-	position: fixed;
-	background-color: rgba(135,196,196,0.7);
-}
-
-
-/*
 LINKS
 ================================
 */
 
-
 a {
-    font-weight:bold;
-    color: #87C4C4;
-    text-decoration:none;
-    }
+  font-weight:bold;
+  color: #87C4C4;
+  text-decoration:none;
+}
 
 a:visited {
-    font-weight:bold;
-    color: #87C4C4;
-    text-decoration:none;
-    }
-
-
+  font-weight:bold;
+  color: #87C4C4;
+  text-decoration:none;
+}
 
 a:hover {
 	text-decoration:underline;
 	color:black;
-	}
-
-
-
-
-	.top-picture {
-		background-size: cover;
-		background-repeat: no-repeat;
-		position:relative;
-		float:left;
-		width:100%;
-		margin: 0px;
-		padding: 0px;
-		margin-bottom:-3px;
-		z-index: -5;
-
-	}
-
+}
 
 /* how it was before i got crazy
 #page {
@@ -247,6 +165,10 @@ a:hover {
 */
 
 
+/*
+HEADER and BODY
+================================
+*/
 
 #textbox {
 	-webkit-box-sizing: border-box;
@@ -257,65 +179,10 @@ a:hover {
 	width:100%;
 	padding: 72px;
 	background-color: white;
-
 	border-radius: 2px;
-
 	-moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
-    box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.25);
-
-}
-
-.button-off {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
-	background-color: white;
-	border: 1px solid #707070;
-	border-radius: 3.75em;
-	color: #848484;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
-	transition: all 100ms linear;
-}
-.button-off:hover {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
-	background-color: white;
-	border: 1px solid #87C4C4;
-	border-radius: 3.75em;
-	color: #87C4C4;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
-}
-
-.button-on {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
-	background-color: #87C4C4;
-	border: 1px solid #87C4C4;
-	border-radius: 3.75em;
-	color: white;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
-	transition: all 100ms linear;
-}
-.button-on:hover {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
-	background-color: #A1EAEB;
-	border: 1px solid #A1EAEB;
-	border-radius: 3.75em;
-	color: white;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.25);
 }
 
 #header-contact {
@@ -346,60 +213,179 @@ a:hover {
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 	}
 
-#footer-contact {
-	vertical-align: baseline;
+
+/*
+BACKGROUND
+================================
+*/
+
+.picture {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+	position: fixed;
+}
+.overlay-grayscale {
+	height: 100%;
+	width: 100%;
+	z-index: -4;
+	position: fixed;
+	background-color: rgba(255,255,255,0.2);
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	z-index: -3;
+	position: fixed;
+	background-color: rgba(135,196,196,0.7);
+}
+
+.top-picture {
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+	float:left;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:-3px;
+	z-index: -5;
+}
+
+
+/*
+NAVIGATION
+================================
+*/
+
+.nav_links li {
+		display: inline-block;
+	  margin-top: 4px;
 	}
+
+.nav-space {
+		height: 40px;
+	}
+
+#nav_bar {
+	float: right;
+	border: 0;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0px;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.navbar-fixed {
+	width: 100%;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 100;
+}
+
+
+/*
+BUTTONS
+================================
+*/
+
+.buttons > li {
+	display: inline-block;
+	margin-right: .1em;
+}
+
+.topic-button {
+	display: inline;
+	float: right;
+	margin-top: 72px;
+}
+
+.buttons {
+	float:right;
+	font-size: 15px;
+}
+
+.button-on,
+.button-off {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size: .75em;
+	font-weight: 400;
+	border: 1px solid;
+	border-radius: 3.75em;
+	display: inline-block;
+	line-height: 1;
+	padding: 0.4em 1.2em;
+	transition: all 100ms linear;
+}
+
+.button-off {
+	background-color: #e9e9e9;
+	border-color: #e9e9e9;
+	color: #848492;
+}
+.button-off:hover {
+	background-color: #848492;
+	border-color: #848492;
+	color: #e9e9e9;
+}
+
+.button-on {
+	background-color: #87C4C4;
+	border-color: #87C4C4;
+	color: white;
+}
+.button-on:hover {
+	background-color: #A1EAEB;
+	border-color: #A1EAEB;
+}
+
 
 /*
 Adjustments for Wider tablet and Desktop Sizes
 =========================================
 */
 
-
 @media all and (min-width: 1025px)
 {
-
-.top-picture {
-display:none;
-}
-
-html {
-
-	}
-
-
-#header-contact {
-	right:164px;
-}
-
-
-#textbox {
-	position: relative;
-	float:right;
-	margin-top:90px;
-	margin-right:144px;
-	margin-bottom:36px;
-	width:512px;
-}
-
-}
-
-@media all and (min-width: 800px) and (max-width: 1024px)
-{
 	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
+		background-color: rgba(255,255,255,0.5);
 	}
 	.overlay {
 		background-color: rgba(135,196,196,0.7);
 	}
 
 	#textbox {
-
-		padding:72px 200px;
+		position: relative;
+		float:right;
+		margin-top:90px;
+		margin-right:144px;
+		margin-bottom:36px;
+		width:512px;
 	}
 
+	#header-contact {
+		right:164px;
+	}
+
+	.top-picture, #nav_bar {
+		display:none;
+	}
 }
 
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+	#textbox {
+		padding:200px 216px;
+	}
+
+	.navbar-fixed {
+		padding-right: 216px;
+	}
+}
 
 
 /*
@@ -407,54 +393,47 @@ Adjustments for Phone Sizes
 =========================================
 */
 
-@media all and (min-width: 501px) and (max-width: 799px)
+@media all and (min-width: 625px) and (max-width: 799px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
+	#textbox {
+		padding:200px 144px;
 	}
 
+	.navbar-fixed {
+		padding-right: 144px;
+	}
 }
 
+@media all and (min-width: 501px) and (max-width: 624px)
+{
+	#textbox {
+		padding:72px;
+	}
 
+	.navbar-fixed {
+		padding-right: 72px;
+	}
+}
 
 @media all and (min-width: 401px) and (max-width: 500px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
+	#textbox {
+		padding:36px;
 	}
 
-	.buttons {
-		text-align: center;
-		font-size: 12px;
+	.navbar-fixed {
+		padding-right: 36px;
 	}
-
 }
-
-
 
 @media all and (max-width: 400px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
-	}
-
 	#textbox {
 		padding:36px;
-
 	}
 
-	.buttons {
-		text-align: center;
-		font-size: 15px;
+	.navbar-fixed {
+		padding-right: 36px;
 	}
 
 	#header-contact a {
@@ -470,5 +449,4 @@ Adjustments for Phone Sizes
 	    color:white;
 	    text-decoration:none;
 	}
-
 }

@@ -82,4 +82,19 @@ READ MORE/LESS
     $('#textbox').find('.interests-button').toggleClass( 'interests-button' );
   });
 
+
+
+  $(window).scroll(function () {
+
+      var posTop = $(window).scrollTop() - $('.nav-space').offset().top
+
+    console.log('from .nav-space: '+posTop+' | from top of page: '+$(window).scrollTop());
+
+    if (posTop > 0) {
+      $('#nav_bar').addClass('navbar-fixed');
+    }
+    if (posTop < 1) {
+      $('#nav_bar').removeClass('navbar-fixed');
+    }
+  });
 });
