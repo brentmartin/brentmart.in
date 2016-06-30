@@ -394,6 +394,24 @@ html {
 	}
 
 	#textbox {
+	#nav_bar {
+		float: right;
+		border: 0;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 0px;
+		margin-bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+
+	.navbar-fixed {
+		width: 100%;
+		top: 0;
+		right: 0;
+		z-index: 100;
+		position: fixed;
+		padding-right: 216px;
+	}
 
 		padding:72px 200px;
 	}
