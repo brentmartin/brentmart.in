@@ -302,29 +302,13 @@ a:hover {
 }
 
 .button-on {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
 	background-color: #87C4C4;
-	border: 1px solid #87C4C4;
-	border-radius: 3.75em;
+	border-color: #87C4C4;
 	color: white;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
-	transition: all 100ms linear;
 }
 .button-on:hover {
-	font-family: 'Oswald', Helvetica, sans-serif;
-	font-size: .75em;
-	font-weight: 400;
 	background-color: #A1EAEB;
-	border: 1px solid #A1EAEB;
-	border-radius: 3.75em;
-	color: white;
-	display: inline-block;
-	line-height: 1;
-	padding: 0.4em 1.2em;
+	border-color: #A1EAEB;
 }
 
 #header-contact {
