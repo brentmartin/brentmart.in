@@ -373,13 +373,6 @@ Adjustments for Wider tablet and Desktop Sizes
 		background-color: rgba(135,196,196,0.7);
 	}
 
-	.top-picture {
-	display:none;
-	}
-
-	#nav_bar {
-		display: none;
-	}
 
 	#header-contact {
 		right:164px;
@@ -396,6 +389,10 @@ Adjustments for Wider tablet and Desktop Sizes
 
 }
 
+	.top-picture, #nav_bar {
+		display:none;
+	}
+}
 
 @media all and (min-width: 800px) and (max-width: 1024px)
 {
