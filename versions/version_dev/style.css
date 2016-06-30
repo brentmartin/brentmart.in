@@ -358,6 +358,15 @@ a:hover {
 #footer-contact {
 	vertical-align: baseline;
 	}
+#nav_bar {
+	float: right;
+	border: 0;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0px;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
 
 .navbar-fixed {
 	width: 100%;
@@ -386,6 +395,10 @@ Adjustments for Wider tablet and Desktop Sizes
 	display:none;
 	}
 
+	#nav_bar {
+		display: none;
+	}
+
 	#header-contact {
 		right:164px;
 	}
@@ -401,20 +414,11 @@ Adjustments for Wider tablet and Desktop Sizes
 
 }
 
+
 @media all and (min-width: 800px) and (max-width: 1024px)
 {
 	#textbox {
 		padding:200px 216px;
-	}
-
-	#nav_bar {
-		float: right;
-		border: 0;
-		background-color: rgba(255,255,255,0.9);
-		border-radius: 0px;
-		margin-bottom: 0;
-		padding-top: 10px;
-		padding-bottom: 6px;
 	}
 
 	.navbar-fixed {
@@ -422,7 +426,6 @@ Adjustments for Wider tablet and Desktop Sizes
 	}
 
 }
-
 
 
 /*
@@ -436,16 +439,6 @@ Adjustments for Phone Sizes
 		padding:200px 144px;
 	}
 
-	#nav_bar {
-		float: right;
-		border: 0;
-		background-color: rgba(255,255,255,0.9);
-		border-radius: 0px;
-		margin-bottom: 0;
-		padding-top: 10px;
-		padding-bottom: 6px;
-	}
-
 	.navbar-fixed {
 		padding-right: 144px;
 	}
@@ -455,15 +448,6 @@ Adjustments for Phone Sizes
 
 @media all and (min-width: 501px) and (max-width: 624px)
 {
-	#nav_bar {
-		float: right;
-		border: 0;
-		background-color: rgba(255,255,255,0.9);
-		border-radius: 0px;
-		margin-bottom: 0;
-		padding-top: 10px;
-		padding-bottom: 6px;
-	}
 
 	.navbar-fixed {
 		padding-right: 72px;
@@ -478,16 +462,6 @@ Adjustments for Phone Sizes
 
 @media all and (min-width: 401px) and (max-width: 500px)
 {
-	#nav_bar {
-		float: right;
-		border: 0;
-		background-color: rgba(255,255,255,0.9);
-		border-radius: 0px;
-		margin-bottom: 0;
-		padding-top: 10px;
-		padding-bottom: 6px;
-	}
-
 	.navbar-fixed {
 		padding-right: 36px;
 	}
@@ -499,19 +473,8 @@ Adjustments for Phone Sizes
 }
 
 
-
 @media all and (max-width: 400px)
 {
-	#nav_bar {
-		width: 328px;
-		text-align: center;
-		border: 0;
-		background-color: rgba(255,255,255,0.9);
-		border-radius: 0px;
-		margin-bottom: 0;
-		padding-top: 10px;
-		padding-bottom: 6px;
-	}
 
 	.navbar-fixed {
 		padding-right: 36px;
