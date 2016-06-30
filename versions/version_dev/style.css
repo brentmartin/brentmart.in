@@ -123,26 +123,6 @@ strong {
     color:black;
 	}
 
-.buttons > li {
-		display: inline-block;
-		margin-right: .1em;
-	}
-
-.topic-button {
-		display: inline;
-		float: right;
-		margin-top: 72px;
-	}
-
-.nav_links li {
-		display: inline-block;
-	  margin-top: 4px;
-	}
-
-.nav-space {
-		height: 40px;
-	}
-
 /*  READ MORE/LESS
 .topic-read-more {
 	text-align: right;
@@ -158,36 +138,10 @@ strong {
 */
 
 
-
-.picture {
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	z-index: -5;
-	position: fixed;
-}
-.overlay-grayscale {
-	height: 100%;
-	width: 100%;
-	z-index: -4;
-	position: fixed;
-	background-color: rgba(255,255,255,0.2);
-}
-.overlay {
-	height: 100%;
-	width: 100%;
-	z-index: -3;
-	position: fixed;
-	background-color: rgba(135,196,196,0.7);
-}
-
-
 /*
 LINKS
 ================================
 */
-
 
 a {
   font-weight:bold;
@@ -205,19 +159,6 @@ a:hover {
 	text-decoration:underline;
 	color:black;
 }
-
-.top-picture {
-	background-size: cover;
-	background-repeat: no-repeat;
-	position:relative;
-	float:left;
-	width:100%;
-	margin: 0px;
-	padding: 0px;
-	margin-bottom:-3px;
-	z-index: -5;
-}
-
 
 /* how it was before i got crazy
 #page {
@@ -259,13 +200,131 @@ HEADER and BODY
 	width:100%;
 	padding: 72px;
 	background-color: white;
-
 	border-radius: 2px;
-
 	-moz-box-shadow:    0px 0px 12px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
   box-shadow:         0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
 
+#header-contact {
+  z-index: -2;
+	position:fixed;
+	top:16px;
+	right:32px;
+	}
+
+#header-contact a {
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  }
+
+#header-contact a:visted {
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  }
+
+#header-contact a:hover {
+	text-decoration:underline;
+	}
+
+#header-contact {
+	color:white;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+	}
+
+#footer-contact {
+	vertical-align: baseline;
+
+/*
+BACKGROUND
+================================
+*/
+
+.picture {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+	position: fixed;
+}
+.overlay-grayscale {
+	height: 100%;
+	width: 100%;
+	z-index: -4;
+	position: fixed;
+	background-color: rgba(255,255,255,0.2);
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	z-index: -3;
+	position: fixed;
+	background-color: rgba(135,196,196,0.7);
+}
+
+.top-picture {
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+	float:left;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:-3px;
+	z-index: -5;
+}
+
+
+/*
+NAVIGATION
+================================
+*/
+
+.nav_links li {
+		display: inline-block;
+	  margin-top: 4px;
+	}
+
+.nav-space {
+		height: 40px;
+	}
+
+#nav_bar {
+	float: right;
+	border: 0;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 0px;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 6px;
+}
+
+.navbar-fixed {
+	width: 100%;
+	top: 0;
+	right: 0;
+	position: fixed;
+	z-index: 100;
+}
+
+
+/*
+BUTTONS
+================================
+*/
+
+.buttons > li {
+	display: inline-block;
+	margin-right: .1em;
+}
+
+.topic-button {
+	display: inline;
+	float: right;
+	margin-top: 72px;
 }
 
 .buttons {
@@ -307,77 +366,12 @@ HEADER and BODY
 	border-color: #A1EAEB;
 }
 
-#header-contact {
-  z-index: -2;
-	position:fixed;
-	top:16px;
-	right:32px;
-	}
-
-#header-contact a {
-  font-weight:bold;
-  color:white;
-  text-decoration:none;
-  }
-
-#header-contact a:visted {
-  font-weight:bold;
-  color:white;
-  text-decoration:none;
-  }
-
-#header-contact a:hover {
-	text-decoration:underline;
-	}
-
-#header-contact {
-	color:white;
-	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
-	}
-
-#footer-contact {
-	vertical-align: baseline;
-
-/*
-BACKGROUND
-================================
-*/
-
-
-/*
-NAVIGATION
-================================
-*/
-
-	}
-#nav_bar {
-	float: right;
-	border: 0;
-	background-color: rgba(255,255,255,0.9);
-	border-radius: 0px;
-	margin-bottom: 0;
-	padding-top: 10px;
-	padding-bottom: 6px;
-}
-
-.navbar-fixed {
-	width: 100%;
-	top: 0;
-	right: 0;
-	position: fixed;
-	z-index: 100;
-}
-
-
-/*
-BUTTONS
-================================
-*/
 
 /*
 Adjustments for Wider tablet and Desktop Sizes
 =========================================
 */
+
 @media all and (min-width: 1025px)
 {
 	.overlay-grayscale {
@@ -416,10 +410,12 @@ Adjustments for Wider tablet and Desktop Sizes
 	}
 }
 
+
 /*
 Adjustments for Phone Sizes
 =========================================
 */
+
 @media all and (min-width: 625px) and (max-width: 799px)
 {
 	#textbox {
