@@ -447,6 +447,24 @@ Adjustments for Phone Sizes
 		background-color: rgba(135,196,196,0.7);
 	}
 
+	#nav_bar {
+		float: right;
+		border: 0;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 0px;
+		margin-bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+
+	.navbar-fixed {
+		width: 100%;
+		top: 0;
+		right: 0;
+		z-index: 100;
+		position: fixed;
+		padding-right: 144px;
+	}
 }
 
 
@@ -458,6 +476,25 @@ Adjustments for Phone Sizes
 	}
 	.overlay {
 		background-color: rgba(135,196,196,0.7);
+	}
+
+	#nav_bar {
+		float: right;
+		border: 0;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 0px;
+		margin-bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+
+	.navbar-fixed {
+		width: 100%;
+		top: 0;
+		right: 0;
+		z-index: 100;
+		position: fixed;
+		padding-right: 36px;
 	}
 
 	#textbox {
@@ -477,24 +514,22 @@ Adjustments for Phone Sizes
 @media all and (max-width: 400px)
 {
 	#nav_bar {
-	border: 0;
-	background-color: white;
-	border-radius: 0px;
-	margin-bottom: 0;
-  height: 40px;
+		width: 328px;
+		text-align: center;
+		border: 0;
+		background-color: rgba(255,255,255,0.9);
+		border-radius: 0px;
+		margin-bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 6px;
 	}
 
 	.navbar-fixed {
-  top: 0;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-	vertical-align: middle;
+	  top: 0;
+	  z-index: 100;
+	  position: fixed;
 	}
 
-	.navbar-fixed > li {
-	text-align: center;
-	}
 
 	.overlay-grayscale {
 		background-color: rgba(255,255,255,0.2);
