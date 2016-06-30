@@ -123,12 +123,6 @@ strong {
     color:black;
 	}
 
-
-/*
-OTHER STYLING
-================================
-*/
-
 .buttons > li {
 		display: inline-block;
 		margin-right: .1em;
@@ -251,6 +245,10 @@ a:hover {
 */
 
 
+/*
+HEADER and BODY
+================================
+*/
 
 #textbox {
 	-webkit-box-sizing: border-box;
@@ -339,6 +337,18 @@ a:hover {
 
 #footer-contact {
 	vertical-align: baseline;
+
+/*
+BACKGROUND
+================================
+*/
+
+
+/*
+NAVIGATION
+================================
+*/
+
 	}
 #nav_bar {
 	float: right;
@@ -357,6 +367,12 @@ a:hover {
 	position: fixed;
 	z-index: 100;
 }
+
+
+/*
+BUTTONS
+================================
+*/
 
 /*
 Adjustments for Wider tablet and Desktop Sizes
