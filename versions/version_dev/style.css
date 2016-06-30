@@ -178,7 +178,7 @@ OTHER STYLING
 	width: 100%;
 	z-index: -4;
 	position: fixed;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.2);
 }
 .overlay {
 	height: 100%;
@@ -375,6 +375,11 @@ Adjustments for Wider tablet and Desktop Sizes
 
 @media all and (min-width: 1025px)
 {
+	.overlay-grayscale {
+		background-color: rgba(255,255,255,0.5);
+	}
+	.overlay {
+		background-color: rgba(135,196,196,0.7);
 	}
 
 	.top-picture {
@@ -398,13 +403,6 @@ Adjustments for Wider tablet and Desktop Sizes
 
 @media all and (min-width: 800px) and (max-width: 1024px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
-	}
-
 	#textbox {
 		padding:200px 216px;
 	}
@@ -434,13 +432,6 @@ Adjustments for Phone Sizes
 
 @media all and (min-width: 625px) and (max-width: 799px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
-	}
-
 	#textbox {
 		padding:200px 144px;
 	}
@@ -464,13 +455,6 @@ Adjustments for Phone Sizes
 
 @media all and (min-width: 501px) and (max-width: 624px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
-	}
-
 	#nav_bar {
 		float: right;
 		border: 0;
@@ -494,13 +478,6 @@ Adjustments for Phone Sizes
 
 @media all and (min-width: 401px) and (max-width: 500px)
 {
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
-	}
-
 	#nav_bar {
 		float: right;
 		border: 0;
@@ -537,12 +514,6 @@ Adjustments for Phone Sizes
 	}
 
 	.navbar-fixed {
-
-	.overlay-grayscale {
-		background-color: rgba(255,255,255,0.2);
-	}
-	.overlay {
-		background-color: rgba(135,196,196,0.7);
 		padding-right: 36px;
 	}
 
