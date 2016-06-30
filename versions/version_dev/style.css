@@ -270,6 +270,11 @@ a:hover {
 
 }
 
+.buttons {
+	float:right;
+	font-size: 15px;
+}
+
 .button-off {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-size: .75em;
@@ -415,12 +420,6 @@ Adjustments for Wider tablet and Desktop Sizes
 		padding-right: 216px;
 	}
 
-	.buttons {
-		float:right;
-		text-align: center;
-		font-size: 15px;
-	}
-
 }
 
 
@@ -462,12 +461,6 @@ Adjustments for Phone Sizes
 		padding-right: 144px;
 	}
 
-	.buttons {
-		float:right;
-		text-align: center;
-		font-size: 15px;
-	}
-
 }
 
 
@@ -501,12 +494,6 @@ Adjustments for Phone Sizes
 
 	#textbox {
 		padding:72px;
-	}
-
-	.buttons {
-		float:right;
-		text-align: center;
-    font-size: 15px;
 	}
 
 }
@@ -544,12 +531,6 @@ Adjustments for Phone Sizes
 		padding:36px;
 	}
 
-	.buttons {
-		float:right;
-		text-align: center;
-    font-size: 15px;
-	}
-
 }
 
 
@@ -583,11 +564,6 @@ Adjustments for Phone Sizes
 
 	#textbox {
 		padding:36px;
-	}
-
-	.buttons {
-		text-align: center;
-		font-size: 15px;
 	}
 
 	#header-contact a {
