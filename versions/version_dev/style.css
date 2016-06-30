@@ -362,8 +362,6 @@ a:hover {
 Adjustments for Wider tablet and Desktop Sizes
 =========================================
 */
-
-
 @media all and (min-width: 1025px)
 {
 	.overlay-grayscale {
@@ -371,11 +369,6 @@ Adjustments for Wider tablet and Desktop Sizes
 	}
 	.overlay {
 		background-color: rgba(135,196,196,0.7);
-	}
-
-
-	#header-contact {
-		right:164px;
 	}
 
 	#textbox {
@@ -387,7 +380,9 @@ Adjustments for Wider tablet and Desktop Sizes
 		width:512px;
 	}
 
-}
+	#header-contact {
+		right:164px;
+	}
 
 	.top-picture, #nav_bar {
 		display:none;
@@ -403,15 +398,12 @@ Adjustments for Wider tablet and Desktop Sizes
 	.navbar-fixed {
 		padding-right: 216px;
 	}
-
 }
-
 
 /*
 Adjustments for Phone Sizes
 =========================================
 */
-
 @media all and (min-width: 625px) and (max-width: 799px)
 {
 	#textbox {
@@ -421,46 +413,38 @@ Adjustments for Phone Sizes
 	.navbar-fixed {
 		padding-right: 144px;
 	}
-
 }
-
 
 @media all and (min-width: 501px) and (max-width: 624px)
 {
-
-	.navbar-fixed {
-		padding-right: 72px;
-	}
-
 	#textbox {
 		padding:72px;
 	}
 
+	.navbar-fixed {
+		padding-right: 72px;
+	}
 }
-
 
 @media all and (min-width: 401px) and (max-width: 500px)
 {
-	.navbar-fixed {
-		padding-right: 36px;
-	}
-
 	#textbox {
 		padding:36px;
 	}
 
+	.navbar-fixed {
+		padding-right: 36px;
+	}
 }
-
 
 @media all and (max-width: 400px)
 {
+	#textbox {
+		padding:36px;
+	}
 
 	.navbar-fixed {
 		padding-right: 36px;
-	}
-
-	#textbox {
-		padding:36px;
 	}
 
 	#header-contact a {
@@ -476,5 +460,4 @@ Adjustments for Phone Sizes
 	    color:white;
 	    text-decoration:none;
 	}
-
 }
