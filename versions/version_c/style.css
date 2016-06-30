@@ -371,7 +371,7 @@ Adjustments for Wider tablet and Desktop Sizes
 		right:164px;
 	}
 
-	.top-picture, #nav_bar {
+	.top-picture, .navbar-fixed {
 		display:none;
 	}
 }
