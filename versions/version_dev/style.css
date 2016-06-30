@@ -404,6 +404,9 @@ html {
 	}
 
 	#textbox {
+		padding:200px 216px;
+	}
+
 	#nav_bar {
 		float: right;
 		border: 0;
@@ -445,6 +448,10 @@ Adjustments for Phone Sizes
 	}
 	.overlay {
 		background-color: rgba(135,196,196,0.7);
+	}
+
+	#textbox {
+		padding:200px 144px;
 	}
 
 	#nav_bar {
@@ -506,7 +513,6 @@ Adjustments for Phone Sizes
 
 	#textbox {
 		padding:36px;
-
 	}
 
 	.buttons {
@@ -548,7 +554,6 @@ Adjustments for Phone Sizes
 
 	#textbox {
 		padding:36px;
-
 	}
 
 	.buttons {
