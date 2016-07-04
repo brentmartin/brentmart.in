@@ -438,6 +438,10 @@ Adjustments for Phone Sizes
 		padding-right: 12px;
 	}
 
+	.buttons {
+		font-size: 13px;
+	}
+
 	#header-contact a {
 		font-weight:bold;
 		font-size: 12px;
