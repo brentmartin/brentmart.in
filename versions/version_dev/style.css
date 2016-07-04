@@ -295,6 +295,9 @@ NAVIGATION
 }
 
 .navbar-on-content {
+	float: left;
+	left: 0;
+	z-index: 200;
 }
 
 /*
