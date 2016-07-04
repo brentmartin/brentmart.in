@@ -281,6 +281,9 @@ NAVIGATION
 	padding-bottom: 6px;
 }
 
+.navbar-off {
+}
+
 .navbar-on {
 	width: 100%;
 	top: 0;
