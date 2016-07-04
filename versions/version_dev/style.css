@@ -443,26 +443,31 @@ Adjustments for Phone Sizes
 	}
 }
 
-@media all and (max-width: 400px)
+@media all and (min-width: 350px) and (max-width: 400px)
 {
 	#textbox {
-		padding:36px;
+		padding: 36px 12px;
 	}
 
 	.navbar-on {
-		padding-right: 36px;
+		padding-right: 12px;
+	}
+
+	#header-contact {
+    top: 12px;
+    right: 12px;
 	}
 
 	#header-contact a {
     font-weight:bold;
-    font-size: 13px;
+    font-size: 15px;
     color:white;
     text-decoration:none;
 	}
 
 	#header-contact a:visited {
     font-weight:bold;
-    font-size: 13px;
+    font-size: 15px;
     color:white;
     text-decoration:none;
 	}
