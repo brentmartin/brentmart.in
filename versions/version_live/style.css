@@ -406,11 +406,11 @@ Adjustments for Phone Sizes
 @media all and (max-width: 400px)
 {
 	#textbox {
-		padding:36px;
+		padding: 36px 12px;
 	}
 
 	.navbar-fixed {
-		padding-right: 36px;
+		padding-right: 12px;
 	}
 
 	#header-contact a {
