@@ -300,6 +300,11 @@ NAVIGATION
 	z-index: 200;
 }
 
+.navbar-on-content h1 {
+	font-size: 15px;
+	color: black;
+}
+
 /*
 BUTTONS
 ================================
