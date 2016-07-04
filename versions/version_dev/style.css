@@ -281,7 +281,7 @@ NAVIGATION
 	padding-bottom: 6px;
 }
 
-.navbar-fixed {
+.navbar-on {
 	width: 100%;
 	top: 0;
 	right: 0;
@@ -373,7 +373,7 @@ Adjustments for Wider tablet and Desktop Sizes
 		right:164px;
 	}
 
-	.top-picture, .navbar-fixed {
+	.top-picture, .navbar-on {
 		display:none;
 	}
 }
@@ -384,7 +384,7 @@ Adjustments for Wider tablet and Desktop Sizes
 		padding:200px 216px;
 	}
 
-	.navbar-fixed {
+	.navbar-on {
 		padding-right: 216px;
 	}
 }
@@ -401,7 +401,7 @@ Adjustments for Phone Sizes
 		padding:200px 144px;
 	}
 
-	.navbar-fixed {
+	.navbar-on {
 		padding-right: 144px;
 	}
 }
@@ -412,7 +412,7 @@ Adjustments for Phone Sizes
 		padding:72px;
 	}
 
-	.navbar-fixed {
+	.navbar-on {
 		padding-right: 72px;
 	}
 }
@@ -423,7 +423,7 @@ Adjustments for Phone Sizes
 		padding:36px;
 	}
 
-	.navbar-fixed {
+	.navbar-on {
 		padding-right: 36px;
 	}
 }
@@ -434,7 +434,7 @@ Adjustments for Phone Sizes
 		padding:36px;
 	}
 
-	.navbar-fixed {
+	.navbar-on {
 		padding-right: 36px;
 	}
 
