@@ -396,7 +396,7 @@ Adjustments for Wider tablet and Desktop Sizes
 @media all and (min-width: 800px) and (max-width: 1024px)
 {
 	#textbox {
-		padding:200px 216px;
+		padding: 72px 216px;
 	}
 
 	.navbar-on {
@@ -413,7 +413,7 @@ Adjustments for Phone Sizes
 @media all and (min-width: 625px) and (max-width: 799px)
 {
 	#textbox {
-		padding:200px 144px;
+		padding: 72px 144px;
 	}
 
 	.navbar-on {
