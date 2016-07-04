@@ -98,6 +98,7 @@ READ MORE/LESS
     if (posTop < 1) {
       $('#nav_bar').addClass('navbar-off');
       $('#nav_bar').removeClass('navbar-on');
+      $('.navbar-on-content').hide();
     }
   });
 });
