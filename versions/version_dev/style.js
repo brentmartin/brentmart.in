@@ -93,6 +93,7 @@ READ MORE/LESS
     if (posTop > 0) {
       $('#nav_bar').addClass('navbar-on');
       $('#nav_bar').removeClass('navbar-off');
+      $('.navbar-on-content').show();
     }
     if (posTop < 1) {
       $('#nav_bar').addClass('navbar-off');
