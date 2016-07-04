@@ -291,6 +291,7 @@ NAVIGATION
 	right: 0;
 	position: fixed;
 	z-index: 100;
+	transition: box-shadow 500ms linear;
 }
 
 
