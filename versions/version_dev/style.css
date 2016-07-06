@@ -62,7 +62,7 @@ h1 {
 	letter-spacing:-2px;
 	margin-bottom:24px;
 	color: black;
-	}
+}
 
 /*  USED FOR SECTION HEADERS*/
 h2 {
@@ -77,7 +77,7 @@ h2 {
 	border-top:1px;
 	border-color:lightgray;
 	border-style:solid;
-	}
+}
 
 /* 	USED FOR SUB HEADERS */
 h3 {
@@ -88,7 +88,7 @@ h3 {
 	margin-top:24px;
 	margin-bottom:16px;
 	color: black;
-	}
+}
 
 /* 	USED FOR SUB SUB HEADERS */
 h4 {
@@ -99,7 +99,7 @@ h4 {
 	text-transform:uppercase;
 	margin-bottom:12px;
 	color: black;
-	}
+}
 
 /* 	USED FOR BODY TEXT */
 p	{
@@ -108,13 +108,13 @@ p	{
 	line-height: 22px;
 	color: #333333;
 	margin-bottom: 12px;
-	}
+}
 
-strong {
 /* 	USED FOR BOLD (STRONG) BODY TEXT */
-    font-weight:bold;
-    color:black;
-	}
+strong {
+  font-weight:bold;
+  color:black;
+}
 
 
 /*
