@@ -53,8 +53,8 @@ TYPOGRAPHY
 ================================
 */
 
-h1  {
 /* 	USED FOR PAGE TITLE */
+h1 {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 72px;
@@ -62,10 +62,10 @@ h1  {
 	letter-spacing:-2px;
 	margin-bottom:24px;
 	color: black;
-	}
+}
 
-h2	{
 /*  USED FOR SECTION HEADERS*/
+h2 {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 48px;
@@ -77,10 +77,10 @@ h2	{
 	border-top:1px;
 	border-color:lightgray;
 	border-style:solid;
-	}
+}
 
-h3	{
 /* 	USED FOR SUB HEADERS */
+h3 {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 32px;
@@ -88,10 +88,10 @@ h3	{
 	margin-top:24px;
 	margin-bottom:16px;
 	color: black;
-	}
+}
 
-h4	{
 /* 	USED FOR SUB SUB HEADERS */
+h4 {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-weight: 500;
 	font-size: 18px;
@@ -99,22 +99,22 @@ h4	{
 	text-transform:uppercase;
 	margin-bottom:12px;
 	color: black;
-	}
+}
 
-p	{
 /* 	USED FOR BODY TEXT */
+p	{
 	font-family: 'Marion', Georgia, Serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #333333;
 	margin-bottom: 12px;
-	}
+}
 
-strong {
 /* 	USED FOR BOLD (STRONG) BODY TEXT */
-    font-weight:bold;
-    color:black;
-	}
+strong {
+  font-weight:bold;
+  color:black;
+}
 
 
 /*
