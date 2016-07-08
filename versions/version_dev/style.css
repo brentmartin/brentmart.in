@@ -307,7 +307,7 @@ BUTTONS
 ================================
 */
 
-.buttons > li {
+.buttons > li, span {
 	display: inline-block;
 	margin-right: .1em;
 }
