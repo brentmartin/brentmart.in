@@ -430,6 +430,9 @@ Adjustments for Phone Sizes
 		padding:72px;
 	}
 
+	.navbar-on > .buttons {
+		margin-right: 72px;
+		margin-left: 72px;
 	}
 }
 
