@@ -292,6 +292,9 @@ NAVIGATION
 }
 
 .navbar-on-content {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top: 1.5px;
 	float: left;
 	left: 0;
 	z-index: 200;
