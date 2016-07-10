@@ -79,7 +79,6 @@ READ MORE/LESS
   $('#textbox').find('li:nth-child(6)').on('click', function() {
     $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#interests').fadeToggle(250);
-    $('#textbox').find('.interests-button').toggleClass( 'interests-button' );
   });
 
 
