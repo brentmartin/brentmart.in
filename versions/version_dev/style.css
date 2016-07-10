@@ -429,6 +429,17 @@ Adjustments for Phone Sizes
 		margin-right: 72px;
 		margin-left: 72px;
 	}
+
+	.button-off:focus {
+		background-color: #848492;
+		border-color: #848492;
+		color: #e9e9e9;
+	}
+
+	.button-on:focus {
+		background-color: #A1EAEB;
+		border-color: #A1EAEB;
+	}
 }
 
 @media all and (min-width: 401px) and (max-width: 500px)
