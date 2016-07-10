@@ -57,29 +57,28 @@ READ MORE/LESS
 
 
   $('#textbox').find('li:nth-child(1)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on' );
+    $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#skills').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(2)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on jobs-button' );
+    $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#jobs').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(3)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on' );
+    $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#education').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(4)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on' );
+    $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#results').fadeToggle(250);
   });
 
   $('#textbox').find('li:nth-child(5)').on('click', function() {
-    $(this).toggleClass( 'button-off button-on' );
+    $(this).toggleClass('button-off button-on');
     $(this).closest('#textbox').find('#interests').fadeToggle(250);
-    $('#textbox').find('.interests-button').toggleClass( 'interests-button' );
   });
 
 
