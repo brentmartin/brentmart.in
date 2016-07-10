@@ -378,6 +378,17 @@ Adjustments for Wider tablet and Desktop Sizes
 	.top-picture, .navbar-on {
 		display:none;
 	}
+
+	.button-off:hover {
+		background-color: #848492;
+		border-color: #848492;
+		color: #e9e9e9;
+	}
+
+	.button-on:hover {
+		background-color: #A1EAEB;
+		border-color: #A1EAEB;
+	}
 }
 
 @media all and (min-width: 800px) and (max-width: 1024px)
