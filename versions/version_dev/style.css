@@ -198,12 +198,6 @@ HEADER and BODY
   text-decoration:none;
 }
 
-#header-contact a:visted {
-  font-weight:bold;
-  color:white;
-  text-decoration:none;
-}
-
 #header-contact a:hover {
 	text-decoration:underline;
 }
