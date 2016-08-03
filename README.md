@@ -19,10 +19,12 @@ More documentation detailing version by version changes with code examples and a
   <img src="gifs/version-a-small.gif" height="298"/>
 </p>
 
+### What's in this version
 The initial update was focused on breaking up the content into digestible chunks. The original version has all the content placed inside one long block, requiring you to seek out information that you want. For instance, if you wanted to look up my **work history**, you would have to scroll past other content before you reached it. Updates for this version breaks up the content using JQuery.
 
 The content can be divided into five sections (skills, jobs, education, results, and interests) with each assigned an id `<div id="skills"></div>`in html to be used as anchors strictly for JavaScript, **not** CSS styling.
 
+### How we did it
 Buttons were then created as a list under the introductory content at the top of the site, and given a class `button-off` for initial before they are engaged:
 ```html
 <ul>
