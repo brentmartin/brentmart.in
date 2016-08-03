@@ -6,6 +6,8 @@
   <img src="gifs/version-c-small.gif" height="298"/>
 </p>
 
+More documentation detailing version by version changes with code examples and additional gifs soon
+
 ## Version (1.0) - Original
 The OG of it all
 
