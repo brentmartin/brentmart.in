@@ -17,12 +17,12 @@ More documentation detailing version by version changes with code examples and a
   <img src="gifs/original-small.gif" height="298"/>
 </p>
 
+## Version 2.0 - JavaScript
+###### _Addition of JavaScript in the form of button_
 
-## Version (2.0) - JavaScript
-Addition of JavaScript in the form of buttons
 
-## Version (3.0) - Content
-Background change and additional media queries are added
+## Version 3.0 - Content
+###### _Background change and additional media queries are added_
 
-## Version (4.0) - Navigation
-A navigation bar that sticks to the top o the screen
+## Version 4.0 - Navigation
+###### _A navigation bar that sticks to the top o the screen_
