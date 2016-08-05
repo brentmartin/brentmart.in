@@ -2,6 +2,8 @@
 A personal portfolio site. Visit the [live version](http://brentmart.in/).
 
 More documentation detailing version by version changes with code examples and additional gifs soon
+### Description
+This is an overhaul of the original portfolio site. The purpose of moving this into a repository was to practice new development skills with code that actually gets shipped on a regular basis. This README serves as a *technical summary of all the changes I have made* to the site and how I did them. It is exhaustive.
 <br>
 <br>
 ## Version 1.0 - Original
