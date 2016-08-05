@@ -1,5 +1,5 @@
 #BrentMart.in
-Visit the [live version](http://brentmart.in/).
+A personal portfolio site. Visit the [live version](http://brentmart.in/).
 
 More documentation detailing version by version changes with code examples and additional gifs soon
 <br>
