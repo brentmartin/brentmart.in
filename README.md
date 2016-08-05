@@ -1,19 +1,27 @@
-#BrentMart.in
+BrentMart.in
+================
 A personal portfolio site. Visit the [live version](http://brentmart.in/).
 
-### Description
 This is an overhaul of the original portfolio site. The purpose of moving this into a repository was to practice new development skills with code that actually gets shipped on a regular basis. This README serves as a *technical summary of all the changes I have made* to the site and how I did them. It is exhaustive.
+Description
+-----------
 
 It has been shipped in 3 iterations, and still holds the code for each in the repository:
+Versions
+-----------
 - [Version 2.0](https://github.com/brentmartin/brentmart.in#version-20---javascript) - The addition of JavaScript/JQuery
 - [Version 3.0](https://github.com/brentmartin/brentmart.in#version-30---content) - Changes in content, colors, and background
 - [Version 4.0](https://github.com/brentmartin/brentmart.in#version-40---navigation) - Improved UI with a nav bar and more media queries
 
-### What it is showing
+Content
+-----------
 So far, this primarily shows JavaScript/JQuery. The goal to learn something _ground level_ with JavaScript before working with something more _high level_ like React or Angular.
 
-### Additional notes about this project
 This README is still being completed before it reaches a point of only being updated at version release, so please understand updates will happen often.
+Questions of comments
+-----------
+Additional notes
+-----------
 
 Some of the code examples have been slightly modified from the actual code in order to _explain concepts_ better. Forgive me :)
 
