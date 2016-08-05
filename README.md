@@ -20,6 +20,8 @@ So far, this primarily shows JavaScript/JQuery. The goal to learn something _gro
 This README is still being completed before it reaches a point of only being updated at version release, so please understand updates will happen often.
 Questions of comments
 -----------
+Please feel free to send me an [email](mailto:bmart35@gmail.com), or [tweet](https://twitter.com/brentofdamartin) me.
+
 Additional notes
 -----------
 
