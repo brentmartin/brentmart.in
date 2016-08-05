@@ -4,6 +4,12 @@ A personal portfolio site. Visit the [live version](http://brentmart.in/).
 More documentation detailing version by version changes with code examples and additional gifs soon
 ### Description
 This is an overhaul of the original portfolio site. The purpose of moving this into a repository was to practice new development skills with code that actually gets shipped on a regular basis. This README serves as a *technical summary of all the changes I have made* to the site and how I did them. It is exhaustive.
+
+### What does it show
+At this point it is primarily showing JavaScript/JQuery changes. It has been shipped in 3 iterations, and still holds the code for each in the repository:
+
+While I ended up using a ton of JQuery, my goal was really to learn more _ground level_ JS skills before trying to dive into React or Angular.
+
 <br>
 <br>
 ## Version 1.0 - Original
