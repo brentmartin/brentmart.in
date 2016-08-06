@@ -146,6 +146,9 @@ At this point we have now broken the content into 5 major chunks, accessible onl
   <img src="gifs/version-b-small.gif" height="298"/>
 </p>
 <br>
+### What's in this version
+
+The main changes in this version have to do with the content, and the changes to the background. The content was fully revised when this version was released. If you're interested in reading the content, its can be seen in the current [live version](http://brentmart.in/).
 <br>
 ***
 <br>
