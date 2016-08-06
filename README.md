@@ -127,7 +127,8 @@ And, of course, we would need to style `button-on` as well:
 
 At this point we have now broken the content into 5 major chunks, accessible only by engaging buttons.
 
-For this version, I also decided to take it a step further and break down each of the 5 sections into _basic_ information and _detailed_ information, and used a `read more` button to allow that triggering independently in each section, but I'm going to save the specifics of that for the next section.
+
+#### Read More Buttons
 
 <br>
 <br>
