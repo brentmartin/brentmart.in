@@ -64,7 +64,10 @@ The content can be divided into five sections (skills, jobs, education, results,
 
 <br>
 ### How its done
-Buttons were then created as a list under the introductory content at the top of the site, and given a class `button-off` for initial before they are engaged:
+This is all done by adding in html elements, styling them, giving them classes and then using JavaScript/JQuery to make those elements interact like a button.
+
+#### Class Buttons
+In the HTML, buttons were then created as a list under the introductory content at the top of the site, and given a class `button-off` for initial before they are engaged:
 ```html
 <ul>
   <li class="button-off">skills</li>
